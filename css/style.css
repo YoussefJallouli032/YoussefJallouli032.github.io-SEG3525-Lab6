@@ -1,0 +1,256 @@
+body{
+    
+    font-size: 16px;
+    background-color: #EEE;
+}
+h1{
+    color: #024589 ; 
+    
+    font-weight: bold;
+    font-size: 62px;
+    padding: 20px;
+    margin: 27px;
+}
+
+ /* begin Navbar */
+ .navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    border:0
+}
+.navbar-default {
+    background-color: #024589; 
+}
+.nav>li>a,
+.navbar-brand{
+    padding:15px 12px;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    
+}
+.navbar-default .navbar-brand:hover{
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-brand{
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#fff;
+    padding: 16px 15px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    padding: 16px 30px;
+    color:#fff;
+    
+}
+/* end Navbar */
+.foto{
+               
+    background:url("../images/f1.jpg") no-repeat center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    width: 100%;
+    height: calc(100vh - 52px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+.foto p{
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+    font-size: 30px;
+    
+    font-weight: bold;
+    
+}
+.foto p:first-of-type{
+    font-size: 70px;
+    padding: 10px 20px;
+    color: #d9534f;
+}
+.foto p span{
+    color :#d9534f;
+}
+
+
+/* beginn contactUs*/
+.contact-us{
+    background:url("../images/f2.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 300px;
+ 
+
+}
+
+.contact-us .contact{
+    
+    min-height: 300px;
+    color:#DDD;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+/*.contact-us input[type="text"], .contact-us textarea{
+    background:rgba(82,78,78,0.5);
+    color:#fff;
+    border:none;
+}*/
+.contact-us input{
+    border:none;
+    color:#555;
+}
+.contact-us .appo{
+    background-color: #fff;
+    text-align:left;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    color:#555;
+}
+.appo p{
+    color:#555;
+}
+
+
+/* end contactUs*/
+.ourTeam{
+    
+    width: 100%;
+    min-height: 600px;
+}
+.ourTeam .team{
+    background:rgba(230, 230, 230, 0.8);
+    color:#555;
+    min-height: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ourTeam .team h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+.ourTeam .team h4 , i {
+    color: #d9534f;
+    
+}
+.ourTeam .team .person{
+    margin:10px;
+}
+.ourTeam .team .person{
+    margin:5px;
+}
+
+.ourTeam .team .person img{
+    width: 220px;
+    height: 220px;
+}
+
+/* begin service*/
+
+.service{
+    padding:40px;
+   
+}
+.card{
+    border: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius:3px;
+    height:320px;
+   
+}
+.card-body{
+    padding:0;
+}
+
+.service p{
+    color:rgb(145, 143, 143) ;
+    font-size: 20px;
+    line-height: 1;
+    width: 80%;
+    margin:0 auto 2px;
+    margin-bottom: 60px;
+}
+.service .card-body{
+    text-align: center;
+}
+.service .card h2{
+    font-size: 24px;
+    padding-top: 25px;
+    color:rgb(3, 117, 161);
+}
+
+.service .card-body h5{
+    color:rgb(3, 117, 161);
+    
+    margin-bottom: 2px;
+    font-size: 38px;
+    text-align: center;
+    background-color:rgb(235, 232, 232) ;
+
+}
+.service .card-body h5 span{
+    font-size: 14px;
+}
+
+.service .card-body ul{
+    margin:10px auto;
+}
+.service .card-body ul li{
+    border: none;
+}
+.service .card-body a{
+    background-color:#d9534f;
+    font-size: 400;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+}
+.service .row .second-card{
+    margin-top: -22px;
+}
+
+.service .row .second-card h5{
+    color:#fff;
+    margin-bottom: 2px;
+    font-size: 38px;
+    background-color:#ec1c23 ;
+}
+.service .row .second-card a{
+    background-color:rgb(3, 117, 161);
+    font-size: 400;
+    color: #fff;
+    border: none;
+}
+
+.test{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap :wrap;
+    align-items: center;
+}
+.test div{
+    width:40%;
+    color:#555;
+}
+.footer{
+    background-color: #024589;
+    color:#fff;
+    padding:5px;
+}
+
